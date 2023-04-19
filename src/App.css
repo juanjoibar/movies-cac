@@ -1,8 +1,15 @@
 .title{
+  position:fixed;
+  background-color: black;
+  height: 150px;
+  width: 100%;
+  top:0px;
+  
+}
+.container{
+  
   text-align: center;
   font-size: 3rem;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff , 00 30px #e60073  ;
-}
-.peliculasGrid {
-
+  margin: 10px;
 }
