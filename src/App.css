@@ -13,3 +13,11 @@
   text-shadow: 0 0 10px #fff, 0 0 20px #fff , 00 30px #e60073  ;
   margin: 10px;
 }
+.footer {
+  position:fixed;
+  background-color: olive;
+  
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+}

@@ -2,6 +2,8 @@ import peliculas from "./peliculas.json"
 import "./PeliculasGrid.css"
 import { PeliculasCard } from "./PeliculasCard"
 export const PeliculasGrid = ()=> {
+
+    
     return(
         <ul className="moviesGrid">
             {peliculas.map((pelicula)=>(

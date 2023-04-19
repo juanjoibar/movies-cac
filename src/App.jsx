@@ -15,7 +15,9 @@ function App() {
           
           <PeliculasGrid/>
          </main>
-    
+      <footer className='footer'>
+
+      </footer>
     </div>
   );
 }

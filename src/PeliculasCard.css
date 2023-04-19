@@ -6,8 +6,8 @@
 .movieImage{
     border-radius: 20px;
     background-color: rebeccapurple;
-    width: 230px;
-    height: 345px;
+    width: 200px;
+    height: 315px;
 }
 @media (max-width:560px) {
 .movieImage{
