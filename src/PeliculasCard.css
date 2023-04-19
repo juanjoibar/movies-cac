@@ -1,0 +1,18 @@
+.moviesCard{
+    list-style: none;
+    text-align: center;
+    font-size: 6.5 rem;
+}
+.movieImage{
+    border-radius: 20px;
+    background-color: rebeccapurple;
+    width: 230px;
+    height: 345px;
+}
+@media (max-width:560px) {
+.movieImage{
+width: 90%;
+height: auto;
+}
+    
+}
