@@ -1,24 +1,31 @@
 
 import './App.css';
-import { PeliculasGrid } from './PeliculasGrid';
+import { PeliculasGrid } from './Components/PeliculasGrid';
+import{BrowserRouter,Route,Routes, Link} from 'react-router-dom'
 
 function App() {
   return (
+    <BrowserRouter>
     <div >
     
-      <header className="title">
-        <div className='container'>Sistema de peliculas </div>
-         </header>
-        <main>
-          
-          {/* componente grilla de peliculas  */}
-          
-          <PeliculasGrid/>
-         </main>
-      <footer className='footer'>
+    <header>
+      <Link to="/">
+      <h1 className='title'>Peliculas</h1>
+      </Link>
+    </header>
+    <Routes>
+      <Route path='/' element= {<PeliculasGrid/>}/>
+      <Route path='/pelicula' element= "otra ruta"/>
+      <Route path='/pelicula/:peliculaId' element= "detalle de pelicula"/>
+      
+    </Routes>
+  
+    <footer className='footer'>
 
-      </footer>
-    </div>
+    </footer>
+  </div>
+    </BrowserRouter>
+    
   );
 }
 

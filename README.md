@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Pagina de la Api
+https://developers.themoviedb.org/
+https://api.themoviedb.org/3
+
+
 In the project directory, you can run:
 
 ### `npm start`
