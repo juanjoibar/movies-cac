@@ -1,23 +1,22 @@
 
 import './App.css';
-import { PeliculasGrid } from './Components/PeliculasGrid';
 import{BrowserRouter,Route,Routes, Link} from 'react-router-dom'
-
+import { LandinPage } from './pages/LandinPage';
+import { PeliculaDetalle } from './pages/PeliculaDetalle';
 function App() {
   return (
     <BrowserRouter>
     <div >
     
-    <header>
+    <header className='header'>
       <Link to="/">
       <h1 className='title'>Peliculas</h1>
       </Link>
     </header>
     <Routes>
-      <Route path='/' element= {<PeliculasGrid/>}/>
+      <Route path='/' element= {<LandinPage/>}/>
       <Route path='/pelicula' element= "otra ruta"/>
-      <Route path='/pelicula/:peliculaId' element= "detalle de pelicula"/>
-      
+      <Route path='/pelicula/:peliculaid' element= {<PeliculaDetalle/>}/>
     </Routes>
   
     <footer className='footer'>

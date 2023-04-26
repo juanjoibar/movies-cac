@@ -1,16 +1,21 @@
-.title{
+.header{
   position:fixed;
   background-color: black;
   height: 150px;
   width: 100%;
   top:0px;
+}
+.title{
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff , 00 30px #e60073  ;
   
 }
 .container{
   
   text-align: center;
   font-size: 3rem;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff , 00 30px #e60073  ;
+  
   margin: 10px;
 }
 .footer {
